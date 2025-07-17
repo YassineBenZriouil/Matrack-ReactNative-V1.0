@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# Mattrak
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Expo](https://img.shields.io/badge/built%20with-expo-1f61e)](https://expo.dev/)
+[![Platform](https://img.shields.io/badge/platform-android%20%7C%20ios%20%7C%20web-blue)]()
 
-## Get started
+A robust mobile solution engineered for organizations specializing in vehicle lending, empowering field agents to seamlessly scan and access critical vehicle data in real time.
 
-1. Install dependencies
+## 🚗 About
+
+**Mattrak** is a purpose-built application tailored for organizations managing car lending operations. Designed with efficiency and reliability in mind, Mattrak enables on-ground agents to rapidly scan license plates and retrieve comprehensive vehicle information instantly. This facilitates streamlined verification, precise tracking, and effective fleet management, ensuring operational excellence and superior client service.
+
+## ✨ Key Features
+
+-   Advanced license plate scanning via integrated device camera
+-   Instantaneous retrieval and display of detailed vehicle records
+-   Comprehensive car status and lifecycle management
+-   Full history tracking for lending, returns, and maintenance
+-   Secure, role-based agent authentication and access control
+-   Agent profile and activity management
+-   Optimized, intuitive interface for high-performance field operations
+
+## 📲 Getting Started
+
+1. **Install dependencies**
 
     ```bash
     npm install
     ```
 
-2. Start the app
+2. **Launch the application**
 
     ```bash
     npx expo start
     ```
 
-In the output, you'll find options to open the app in a
+3. **Deploy to your device**
+    - Compatible with Expo Go, Android emulators, and iOS simulators.
 
--   [development build](https://docs.expo.dev/develop/development-builds/introduction/)
--   [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
--   [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
--   [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-   `app/` – Core application screens and navigation logic
+-   `components/` – Modular, reusable UI components
+-   `assets/` – Brand assets, images, and fonts
+-   `constants/` – Theming, color schemes, and configuration
 
-## Get a fresh project
+## 📝 License
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
--   [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
--   [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
--   [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
--   [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is distributed under the MIT License.
