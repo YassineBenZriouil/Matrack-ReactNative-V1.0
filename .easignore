@@ -1,0 +1,31 @@
+# Node modules (EAS will install them)
+node_modules/
+
+# Version control
+.git/
+.gitignore
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Tests and docs
+__tests__/
+test/
+tests/
+docs/
+
+# Build artifacts
+android/app/build/
+ios/build/
+web-build/
+dist/
+build/
+
+# Misc
+*.env
+*.env.*
+*.DS_Store 
